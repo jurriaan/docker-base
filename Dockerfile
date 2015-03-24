@@ -15,6 +15,3 @@ RUN bnl-apk-install-download-deps                                          \
     && mv gosu-amd64 /usr/local/bin/gosu                                   \
     && chmod +x /usr/local/bin/gosu                                        \
     && apk del download-deps
-
-ONBUILD COPY bin/docker/blendle/base/ /usr/local/bin/
-ONBUILD RUN chmod +x /usr/local/bin*
