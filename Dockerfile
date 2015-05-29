@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.1
+FROM gliderlabs/alpine:3.2
 MAINTAINER Jean Mertz <jean@blendle.com>
 
 WORKDIR /home

@@ -1,7 +1,7 @@
 # blendle/base [![Build Status](http://drone.blendle.io/api/badge/github.com/blendle/docker-base/status.svg?branch=master)](http://drone.blendle.io/github.com/blendle/docker-base)
 
 Provides some easy helpers on top of the extremely lightweight
-`gliderlabs/alpine:3.1` image to use when downloading, compiling and verifying
+`gliderlabs/alpine:3.2` image to use when downloading, compiling and verifying
 binaries during your own image build process.
 
 This base image clocks in at **7.549 MB** (courtesy of the Alpine image), making
